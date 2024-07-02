@@ -71,3 +71,81 @@ Processing by StaticPagesController#index as HTML
 Completed 200 OK in 524ms (Views: 521.8ms | ActiveRecord: 0.0ms | Allocations: 71967)
 
 
+Started GET "/" for 127.0.0.1 at 2024-07-02 14:08:46 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 49.2ms | Allocations: 9004)
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 0.0ms | Allocations: 9330)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2024-07-02 14:11:40 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 4729)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms | Allocations: 5029)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2024-07-02 14:12:50 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 4477)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms | Allocations: 4750)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2024-07-02 14:13:19 -0300
+  [1m[35m (41.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (21.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 2067.5ms | Allocations: 135659)
+Completed 200 OK in 2092ms (Views: 2079.0ms | ActiveRecord: 0.0ms | Allocations: 142499)
+
+
+Started GET "/" for 127.0.0.1 at 2024-07-02 14:13:24 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 4926)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 5284)
+
+
+Started GET "/" for 127.0.0.1 at 2024-07-02 14:17:16 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 4828)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 5131)
+
+
+Started GET "/" for 127.0.0.1 at 2024-07-02 14:17:18 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 4831)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 5131)
+
+
